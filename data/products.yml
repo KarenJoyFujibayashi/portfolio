@@ -3,5 +3,7 @@
   image: kikoemas.png
   url: https://www.kikoemas.com/
 
-- name: Other product
-  image: other_product.png
+- name: Barter
+  description: Enjoy exchanging item with people.
+  image: barter.png
+  url: https://barter-exchange.herokuapp.com/
