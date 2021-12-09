@@ -1,4 +1,7 @@
-- name: Some product
-  image: some_product.png
+- name: Kikoemas
+  description: Promoting high school students well-being.
+  image: kikoemas.png
+  url: https://www.kikoemas.com/
+
 - name: Other product
   image: other_product.png
