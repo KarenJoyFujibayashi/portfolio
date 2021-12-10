@@ -41,6 +41,7 @@ header{
   border-radius: 1rem;
   margin: 1rem 0;
   list-style: none;
+  transition: all .2s linear;
 }
 .navbar, .navigation-button-link:hover{
   background: rgba(255, 255, 255, .5);
