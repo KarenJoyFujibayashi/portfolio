@@ -1,0 +1,45 @@
+
+header{
+  width: 35rem;
+  background:rgba(255, 255, 255, .2);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+  backdrop-filter: blur(.4rem);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  .user{
+  padding-top:2rem;
+}
+ .user img{
+  margin: 1rem 0;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1rem rgba(255, 255, 255, .2);
+}
+ .user .name{
+  font-size: 3rem;
+  color: white;
+  padding-top: 5rem 0;
+}
+ .user .post{
+  font-size: 1.8rem;
+  color: #eee;
+  font-weight: lighter;
+}
+ .navbar{
+  padding: 1rem 3rem;
+}
+.navbar, .navigation-button-link{
+  display: block;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  background:$bg ;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+  border-radius: 1rem;
+  margin: 1rem 0;
+  list-style: none;
+}
+}
