@@ -42,4 +42,9 @@ header{
   margin: 1rem 0;
   list-style: none;
 }
+.navbar, .navigation-button-link:hover{
+  background: rgba(255, 255, 255, .5);
+  color: #555;
+  transition: none;
+}
 }
