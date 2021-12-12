@@ -1,0 +1,19 @@
+.navbar-portfolio{
+  justify-content: space-between;
+  width: 100%;
+  display: inline;
+  height: 80px;
+  a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 17px;
+    margin: right 35px;                                                                             px;
+     text-transform: uppercase;
+     border-radius: 3px;
+    }
+    a:hover{
+      color: $bg-hover;
+      transition: .5s;
+    }
+}

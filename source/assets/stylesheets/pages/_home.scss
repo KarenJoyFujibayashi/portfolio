@@ -16,9 +16,10 @@ html{
 body{
   overflow: hidden;
   min-height: 100vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  float:right;
+  // display: flex;
+  // align-items: flex-end;
+  // justify-content: space-between;
   background: linear-gradient(deeppink, purple);
   padding: 5.5rem;
 }
