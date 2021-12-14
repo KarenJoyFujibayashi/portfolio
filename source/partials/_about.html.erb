@@ -1,0 +1,19 @@
+<section class="bg-dark text-center p-5 text-light about text-sm-start">
+  <div class="container">
+    <div class= "d-sm-flex align-items-center justify-content-between">
+      <div>
+        <h2>Hello there 👋</h2>
+        <p class="lead-my-4">My name is Karen, a <span class="text-warning">web developer</span> based in Tokyo, Japan.</p>
+        <div class="dl-cv justify-content-center align-items-center">
+          <i class="fas fa-download"></i>
+          <span>Download CV</span>
+          <%= link_to "", "#", class: 'navigation-button-link' %>
+        </div>
+      </div>
+      <%# <%= image_tag "pp.png", alt= "alttext", style: 'width:100%' %>
+      <div class="img-card w-50 d-none d-sm-block">
+        <%= image_tag "pp.png", alt: "alttext", class: "img", style: "width:50%" %>
+      </div>
+    </div>
+  </div>
+</section>
