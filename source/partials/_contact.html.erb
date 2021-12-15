@@ -1,22 +1,12 @@
-<div class="wrapper-white">
-  <div class="row">
-    <div class="col-12">
-      <div class="main-container" id="contact" style="padding: 48px;margin-bottom: 0">
-        <div class="navigation-buttons d-flex justify-content-center">
-          <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-            <i class="fas fa-envelope" style="font-size: 28px;"></i>
-            <%= mail_to "karenfujibayashi@gmail.com", "", class: 'navigation-button-link' %>
-          </div>
-          <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-            <i class="fab fa-github-square" style="font-size: 28px;"></i>
-            <%= link_to "", "https://github.com/KarenJoyFujibayashi", target: '_blank', class: 'navigation-button-link' %>
-          </div>
-          <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-            <i class="fab fa-linkedin" style="font-size: 28px;"></i>
-            <%= link_to "", "https://www.linkedin.com/in/fujibayashikaren", target: '_blank', class: 'navigation-button-link' %>
-          </div>
-        </div>
-      </div>
-    </div>
+<form action="https://getform.io/f/94e06bab-42d8-451e-9f61-fc2b03b8f583" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" class="form-control" placeholder="Name" required=true>
   </div>
-</div>
+  <div class="form-group">
+    <input type="email" name="email" class="form-control" placeholder="Email" required=true>
+  </div>
+  <div class="form-group">
+    <textarea type="text" name="message" class="form-control" placeholder="Message..." required=true></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary w-100">Send</button>
+</form>
