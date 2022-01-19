@@ -1,2 +1,2 @@
 import 'bootstrap';
-// import './_navbar';
+import './navbar';
