@@ -1,19 +1,20 @@
 <section class="text-center p-5 text-light about text-sm-start header-about">
   <div class="container">
-    <div class= "d-sm-flex align-items-center justify-content-between">
+    <div class= "d-sm-flex align-items-center justify-content-center">
       <div>
-        <h2 class="mt-5">Hello there 👋</h2>
-        <p class="lead-my-4">My name is Karen, a <span class="text-warning">web developer</span> based in Tokyo, Japan.</p>
-        <div class="dl-cv justify-content-center align-items-center">
+        <h2 class="mt-5">Hi there! 👋</h2>
+        <p class="lead-my-4">My name is Karen, a <span class="text-warning"><strong>web developer</strong></span> based in Tokyo, Japan.</p>
+        <%= image_tag "pp1.png", class: "avatar-large", alt: "avatar-large"%>
+        <div class="btn-dl-cv justify-content-center align-items-center mt-5">
           <i class="fas fa-download"></i>
-          <span>Download CV</span>
-          <%= link_to "", "#", class: 'navigation-button-link' %>
+          <%# <span>Download CV</span> %>
+          <%= link_to "Download CV", "https://drive.google.com/file/d/14KGbCLCC-1GEcojIyclrgr1gHu6swD-a/view?usp=sharing", class:'navigation-button-link' %>
         </div>
       </div>
       <%# <%= image_tag "pp.png", alt= "alttext", style: 'width:100%' %>
-      <div class="img-card w-50 d-none d-sm-block">
-        <%= image_tag "pp.png", alt: "alttext", class: "img", style: "width:50%" %>
-      </div>
+      <%# <div class="img-card d-none d-sm-block"> %>
+      <%# <%= image_tag "pp1.png", alt: "alttext", class: "img"%>
+      <%# </div> %>
     </div>
   </div>
 </section>
