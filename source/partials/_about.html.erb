@@ -1,20 +1,12 @@
-<section class="text-center p-5 text-light about text-sm-start header-about">
-  <div class="container">
-    <div class= "d-sm-flex align-items-center justify-content-center">
-      <div>
-        <h2 class="mt-5">Hi there! 👋</h2>
-        <p class="lead-my-4">My name is Karen, a <span class="text-warning"><strong>web developer</strong></span> based in Tokyo, Japan.</p>
-        <%= image_tag "pp1.png", class: "avatar-large", alt: "avatar-large"%>
-        <div class="btn-dl-cv justify-content-center align-items-center mt-5">
-          <i class="fas fa-download"></i>
-          <%# <span>Download CV</span> %>
-          <%= link_to "Download CV", "https://drive.google.com/file/d/14KGbCLCC-1GEcojIyclrgr1gHu6swD-a/view?usp=sharing", class:'navigation-button-link' %>
-        </div>
-      </div>
-      <%# <%= image_tag "pp.png", alt= "alttext", style: 'width:100%' %>
-      <%# <div class="img-card d-none d-sm-block"> %>
-      <%# <%= image_tag "pp1.png", alt: "alttext", class: "img"%>
-      <%# </div> %>
-    </div>
+<h2 class="p-title p-3"> Who I am</h2>
+<section class="about-me" id= "about">
+  <h3 class="about-me-name">Karen Joy Fujibayashi</h3>
+  <p class="section-sub-title">Junior Web Developer based in Tokyo</p>
+  <div class="about-me-body">
+    <p>A filipino junior web developer living in Japan for almost 4 years. I used to work as a sales representative during weekdays and a remittance clerk as my part-time job every other Sunday. I worked for Tokyo Olympic and Paralympic as an IT Engineer as well.</p>
+    <p>Because of the pandemic caused by Covid-19, office hour had shorten and I wouldn't be able to go out and meet my friends neither my family. My plan is to be more progressive since I will be having plenty of time rather than thinking negativities about the pandemic so this leads me to become a web developer right now. I'd searched for an online school that teaches computer skills and found this <%= link_to "AMA University Online Education", "https://oed.com.ph/", class:'about-link' %>, which I am currently enrolled as BSIT. I have a programming subject and this is when I discover that I enjoy coding.</p>
+    <p>With my eagerness to learn for more, again, I searched for an English <strong>onsite</strong> bootcamp here in Japan and this leads me to <%= link_to "Le Wagon", "https://www.lewagon.com/tokyo?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4q01WCj5QF3MsoEN8dV3a6t0VTq4NHmPNX-GGMSpIZS1UoQ6Uv2_qcaAnOnEALw_wcB", class:'about-link' %>. I took the 9-week full-time course as a full-stack web developer last October. I learnt a lot of things which is very far from my understanding before.I still have a lot to learn but my passion and love for coding will never stop.</p>
+    <p>Now I work as an intern at <%= link_to "Mamoru", "https://www.mamoru.earth/", class:'about-link' %> and a part-time staff at <%= link_to "Rsmile", "https://cosoji.jp/owner/company/", class:'about-link' %>, doing both as a frontend web developer.</p>
   </div>
+  <%# <%= image_tag "about-me.png", alt: "karen in a princess dress"%>
 </section>
