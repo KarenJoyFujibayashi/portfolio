@@ -1,5 +1,5 @@
-<h2 class="p-title-about p-3" onclick="ShowIt()"> Who I am?</h2>
-<section id="hid">
+<h2 class="p-title-about p-3" onclick="click_visibility('hid')"> Who I am?</h2>
+<section id="hid" style="display:hidden">
   <section class="about-me" id= "about">
     <h3 class="about-me-name">Karen Joy Fujibayashi</h3>
     <p class="section-sub-title">Junior Web Developer based in Tokyo</p>
@@ -11,10 +11,14 @@
     </div>
   </section>
 </section>
-<script>
-  function ShowIt() {
-  const obj = document.getElementById('hid');
-  if (obj.style.display === 'block')obj.style.display = 'none';
-  else obj.style.display = 'block';
+<script type="text/javascript">
+  click_visibility('hid');
+  
+  function click_visibility() {
+     var e = document.getElementById("hid");
+     if(e.style.display == 'none')
+        e.style.display = 'block';
+     else
+        e.style.display = 'none';
   }
 </script>

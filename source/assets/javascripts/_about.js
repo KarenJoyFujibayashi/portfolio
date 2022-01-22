@@ -1,5 +1,10 @@
-// function ShowIt() {
-//   const obj = document.getElementById('hid');
-//   if (obj.style.display === 'block')obj.style.display = 'none';
-//   else obj.style.display = 'block';
-// }
+{/* <script type="text/javascript">
+  click_visibility('hid');
+
+  function click_visibility() {
+     var e = document.getElementById("hid");
+  if(e.style.display == 'none')
+  e.style.display = 'block';
+  else
+  e.style.display = 'none';
+  } */}

@@ -1,3 +1,4 @@
+
 .p-title-about{
   font-weight: bold;
   color: #79B4B7 ;
@@ -7,6 +8,12 @@
   cursor: pointer;
   // background-color: #9D9D9D ;
   text-decoration: underline;
+  transition: 1s;
+}
+.p-title-about:hover{
+
+  text-shadow: 2px 2px #5a5757;
+  color: #F8F0DF;
 }
 .about-me{
   max-width: 100%;
