@@ -1,12 +1,20 @@
-<h2 class="p-title p-3"> Who I am</h2>
-<section class="about-me" id= "about">
-  <h3 class="about-me-name">Karen Joy Fujibayashi</h3>
-  <p class="section-sub-title">Junior Web Developer based in Tokyo</p>
-  <div class="about-me-body">
-    <p>A filipino junior web developer living in Japan for almost 4 years. I used to work as a sales representative during weekdays and a remittance clerk as my part-time job every other Sunday. I worked for Tokyo Olympic and Paralympic as an IT Engineer as well.</p>
-    <p>Because of the pandemic caused by Covid-19, office hour had shorten and I wouldn't be able to go out and meet my friends neither my family. My plan is to be more progressive since I will be having plenty of time rather than thinking negativities about the pandemic so this leads me to become a web developer right now. I'd searched for an online school that teaches computer skills and found this <%= link_to "AMA University Online Education", "https://oed.com.ph/", class:'about-link' %>, which I am currently enrolled as BSIT. I have a programming subject and this is when I discover that I enjoy coding.</p>
-    <p>With my eagerness to learn for more, again, I searched for an English <strong>onsite</strong> bootcamp here in Japan and this leads me to <%= link_to "Le Wagon", "https://www.lewagon.com/tokyo?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4q01WCj5QF3MsoEN8dV3a6t0VTq4NHmPNX-GGMSpIZS1UoQ6Uv2_qcaAnOnEALw_wcB", class:'about-link' %>. I took the 9-week full-time course as a full-stack web developer last October. I learnt a lot of things which is very far from my understanding before.I still have a lot to learn but my passion and love for coding will never stop.</p>
-    <p>Now I work as an intern at <%= link_to "Mamoru", "https://www.mamoru.earth/", class:'about-link' %> and a part-time staff at <%= link_to "Rsmile", "https://cosoji.jp/owner/company/", class:'about-link' %>, doing both as a frontend web developer.</p>
-  </div>
-  <%# <%= image_tag "about-me.png", alt: "karen in a princess dress"%>
+<h2 class="p-title-about p-3" onclick="ShowIt()"> Who I am?</h2>
+<section id="hid">
+  <section class="about-me" id= "about">
+    <h3 class="about-me-name">Karen Joy Fujibayashi</h3>
+    <p class="section-sub-title">Junior Web Developer based in Tokyo</p>
+    <div class="about-me-body">
+      <p>A filipino junior web developer living in Japan for almost 4 years. I used to work as a sales representative during weekdays and a remittance clerk as my part-time job every other Sunday. I worked for Tokyo Olympic and Paralympic as an IT Engineer as well.</p>
+      <p>Because of the pandemic caused by Covid-19, office hour had shorten and I wouldn't be able to go out and meet my friends neither my family. My plan is to be more progressive since I will be having plenty of time rather than thinking negativities about the pandemic so this leads me to become a web developer right now. I'd searched for an online school that teaches computer skills and found this <%= link_to "AMA University Online Education", "https://oed.com.ph/", class:'about-link' %>, which I am currently enrolled as BSIT. I have a programming subject and this is when I discover that I enjoy coding.</p>
+      <p>With my eagerness to learn for more, again, I searched for an English <strong>onsite</strong> bootcamp here in Japan and this leads me to <%= link_to "Le Wagon", "https://www.lewagon.com/tokyo?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4q01WCj5QF3MsoEN8dV3a6t0VTq4NHmPNX-GGMSpIZS1UoQ6Uv2_qcaAnOnEALw_wcB", class:'about-link' %>. I took the 9-week full-time course as a full-stack web developer last October. I learnt a lot of things which is very far from my understanding before.I still have a lot to learn but my passion and love for coding will never stop.</p>
+      <p>Now I work as an intern at <%= link_to "Mamoru", "https://www.mamoru.earth/", class:'about-link' %> and a part-time staff at <%= link_to "Rsmile", "https://cosoji.jp/owner/company/", class:'about-link' %>, doing both as a frontend web developer.</p>
+    </div>
+  </section>
 </section>
+<script>
+  function ShowIt() {
+  const obj = document.getElementById('hid');
+  if (obj.style.display === 'block')obj.style.display = 'none';
+  else obj.style.display = 'block';
+  }
+</script>
