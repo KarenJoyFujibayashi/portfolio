@@ -1,9 +1,19 @@
 - name: Kikoemas
-  description: Promoting high school students well-being.
+  description: This App was made as our final project at Le Wagon. I worked more on frontend and thi app focuses on promoting high school students well-being.
   image: kikoemas.png
   url: https://www.kikoemas.com/
 
 - name: Barter
-  description: Enjoy exchanging item with people.
+  description: This app is my personal project during the bootcamp. The concept of this App is to enable the users to exchange/barter item to another item.
   image: barter.png
   url: https://barter-exchange.herokuapp.com/
+
+- name: MAMORU
+  description: My main role in this company is being a frontend web developer and working with international people.
+  image: mamoru.png
+  url: https://app.mamoru.earth/en/
+
+- name: Rsmile
+  description: My main role in this company is being a frontend web developer.
+  image: rsmile.png
+  url: https://cosoji.jp/owner/company/
