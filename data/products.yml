@@ -1,5 +1,5 @@
 - name: Kikoemas
-  description: This App was made as our final project at Le Wagon. I worked more on frontend and thi app focuses on promoting high school students well-being.
+  description: This App was made as our final project at Le Wagon. I worked more as a frontend web developer and this app focuses on promoting high school students well-being.
   image: kikoemas.png
   url: https://www.kikoemas.com/
 
@@ -9,7 +9,7 @@
   url: https://barter-exchange.herokuapp.com/
 
 - name: MAMORU
-  description: My main role in this company is being a frontend web developer and working with international people.
+  description: My main role in this company is being a frontend web developer and I am working with international people.
   image: mamoru.png
   url: https://app.mamoru.earth/en/
 
